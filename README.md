@@ -77,7 +77,9 @@ shadowmount.elf
 **New Features:**
 - ✅ **Recursive Scanning** - Scans up to 5 levels deep to find games in nested folder structures
 - ✅ **Single-Pass Architecture** - Eliminated double-scan overhead for faster startup
-- ✅ **Extended Storage Paths** - Added `/mnt/ext0/etaHEN/homebrew` and `/mnt/ext1/etaHEN/homebrew`
+- ✅ **Extended Storage Paths** - Added `/mnt/ext0/homebrew` and `/mnt/ext1/homebrew`
+* `/mnt/ext0/homebrew` & `/mnt/ext0/etaHEN/homebrew` & `/mnt/ext0/etaHEN/games`
+* `/mnt/ext1/homebrew` & `/mnt/ext1/etaHEN/homebrew` & `/mnt/ext1/etaHEN/games`
 
 **Optimizations:**
 - 🚀 **64KB Copy Buffers** - Increased from 8KB for faster file operations
